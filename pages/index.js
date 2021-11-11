@@ -40,7 +40,9 @@ export default function Home() {
       ></input>
 
       <Realms query={query}></Realms>
-      <div></div>
+      <div>
+        <button className="next-page">Next</button>
+      </div>
     </div>
   );
 }
